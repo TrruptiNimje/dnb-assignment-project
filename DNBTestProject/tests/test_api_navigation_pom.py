@@ -102,4 +102,3 @@ class TestAPINavigationPOM:
         # Verify list of APIs under different categories
         verify_corp_api_category(api_explorer_page)
         verify_reg_api_category(api_explorer_page)
-
