@@ -1,2 +1,2 @@
 # DNB-Assignment-Project
-Test automation project for dnb-developer website 
+Test automation project for dnb-developer website.
