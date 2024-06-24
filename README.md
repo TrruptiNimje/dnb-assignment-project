@@ -7,7 +7,7 @@ The project to automate UI tests for a web application is built using Selenium a
 ### Tools and Frameworks Used
 Selenium: Used for browser automation to interact with the web application.
 Python: The programming language used to write the test scripts.
-Pytest: A testing framework that makes it easy to write simple and scalable test cases.
+Pytest: A testing framework that makes writing simple and scalable test cases easy.
 
 ### Directory and File Descriptions
 1. tests/
@@ -21,8 +21,9 @@ app_page.py: Encapsulates the elements and actions related to app creation, veri
 api_explorer_page.py: Includes locators and methods for interacting with the API explorer page, validating the displayed APIs and their categories.
 base_page.py: Includes events and methods that are used throughout the project.
 3.conftest.py
-This file is used for configuration setups in pytest. It includes fixtures that are used to set up preconditions for the tests, such as initializing the WebDriver, logging into the application, and other setup tasks that need to be performed before running the tests.
+This file is used for configuration setups in pytest. It includes fixtures used to set up preconditions for the tests, such as initializing the WebDriver, logging into the application, and other setup tasks that need to be performed before running the tests.
 4. pytest.ini
 This file is used to configure customized settings for tests. I have used this to create custom markers for categorizing and running tests.
 5. requirements.txt
 This file is used in the projects to specify the dependencies that are needed to run the project.
+**Note: Sleep time is added intentionally to see through the step-by-step execution process.**
