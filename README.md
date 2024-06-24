@@ -26,4 +26,5 @@ This file is used for configuration setups in pytest. It includes fixtures used 
 This file is used to configure customized settings for tests. I have used this to create custom markers for categorizing and running tests.
 5. requirements.txt
 This file is used in the projects to specify the dependencies that are needed to run the project.
+
 **Note: Sleep time is added intentionally to see through the step-by-step execution process.**
